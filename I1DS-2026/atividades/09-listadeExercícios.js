@@ -8,4 +8,9 @@ let adi = x + y;
 let sub = x - y;
 let mult = x * y;
 let div = x / y;
-console.log("A Adição de x + y" adi);
+console.log("A Adição de x + y", adi);
+console.log("A Subração de x - y", sub);
+console.log("A multipicação de x * y", mult);
+console.log("A divisão de x / y", div);
+console.log("----------------------------------------")
+
