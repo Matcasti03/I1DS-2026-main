@@ -18,7 +18,7 @@ a matriz antes e após a multiplicação.
 let matriz1 = [
   [3, 5, 8],
   [1, 9, 2],
-  [7, 1, 4]
+  [7, 1, 4],
 ];
 
 console.log("Matriz:");
@@ -28,23 +28,22 @@ console.log("Diagonal principal:");
 for (let diagonal = 0; diagonal < matriz1.length; diagonal++) {
   console.log(matriz1[diagonal][diagonal]);
 }
-console.log("-------------------------------------------")
+console.log("-------------------------------------------");
 
 let matriz2 = [
   [8, 1, 3],
   [2, 9, 1],
-  [4, 6, 2]
+  [4, 6, 2],
 ];
 
-let x = 2; 
+let x = 2;
 
 console.log("Matriz original:");
 console.table(matriz2);
 
-
 for (let linha = 0; linha < matriz2.length; linha++) {
-  for (let coluna = 0; coluna < matriz2[i].length; coluna++) {
-    matriz2[i][j] *= x;
+  for (let coluna = 0; coluna < matriz2[linha].length; coluna++) {
+    matriz2[linha][coluna] *= x;
   }
 }
 
