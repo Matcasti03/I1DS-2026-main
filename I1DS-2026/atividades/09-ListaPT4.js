@@ -56,3 +56,28 @@ for (let i3 = 1; i3 <= num10; i3++) {
   }
   console.log(linha1);
 }
+console.log("-------------------------------")
+//34. Exiba todos os múltiplos de 5 entre 0 e 100.
+for (let i = 0; i <= 100; i++) {
+  if (i % 5 === 0) {
+    console.log(i);
+  }
+}
+
+console.log("------------------------------------------")
+//35.  Crie um programa que desenhe no console:
+     //  *
+      // **
+    //   ***
+       //****
+     //  *****
+
+for (let i = 1; i <= 5; i++) {
+  let linha = "";
+
+  for (let j = 1; j <= i; j++) {
+    linha += "*";
+  }
+
+  console.log(linha);
+}
