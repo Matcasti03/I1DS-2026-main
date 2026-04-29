@@ -1,6 +1,7 @@
 function cadastrar(event) {
   event.preventDefault();
 
+
   let nome = document.getElementById("nome").value;
   let email = document.getElementById("email").value;
 
@@ -13,9 +14,11 @@ function cadastrar(event) {
   let texto = document.createElement("span");
   texto.innerText = nome + " - " + email;
 
+
   // BOTÃO EDITAR
   let btnEditar = document.createElement("button");
   btnEditar.innerText = "Editar";
+
 
   btnEditar.onclick = function () {
     let novoNome = prompt("Novo nome:", nome);
